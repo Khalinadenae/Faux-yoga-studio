@@ -132,9 +132,8 @@ img {
   .heading-text {
     display: none;
   }
-  .col-md-4 {
-    padding-top: 10px;
-    line-height: 10px;
+  a .footer-logo{
+    display: hidden;
   }
 }
 
