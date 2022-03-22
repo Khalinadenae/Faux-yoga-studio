@@ -7,32 +7,46 @@
 html {
   font-size: 1rem;
 }
-div p{
+div p {
   padding-top: 140px;
   padding-left: 20px;
   line-height: 40px;
 }
-h7{
+h7 {
   line-height: 30px;
+  font-family: "Lato", sans-serif;
 }
 .container {
   margin: 0;
   padding: 0;
+}
+span {
+  padding-left: 10px;
+}
+span a {
+  color: black;
+}
+#main-link {
+  padding-left: 80px;
+}
+h2 {
+  padding-bottom: 20px;
+  font-family: "Lato", sans-serif;
 }
 
 div .col-sm-6 {
   padding: 0;
   border: 1px solid;
   line-height: 20px;
-
+  max-height: 700px;
 }
-div .col-sm-6 h6{
-font-size: 20px;
+div .col-sm-6 h6 {
+  font-size: 20px;
 }
-
 h1 {
-  text-align: center;
-  padding: 20px;
+  padding-top: 200px;
+  padding-left: 70px;
+  width: 80%;
 }
 img {
   width: 100%;
@@ -64,22 +78,23 @@ div.col {
   margin-right: 10px;
 }
 h3 {
-  text-align: center
+  text-align: center;
 }
 
 ul {
   padding: 3em;
 }
+h6 {
+  font-family: "Lato", sans-serif;
+}
 
 #text {
   background-color: #7297768e;
   line-height: 3em;
-  padding-top: 300px;
+  padding-top: 150px;
   padding-left: 25px;
   padding-right: 25px;
 }
-
-
 
 h5,
 #h5 {
@@ -88,6 +103,7 @@ h5,
   font-size: 40px;
   background-color: #eeedeb;
 }
+
 .container-fluid {
   background-color: #eeedeb;
   border: 1px solid;
@@ -96,26 +112,29 @@ h5,
   max-height: 1000px;
 }
 img {
-  max-height: 1000px;
+  max-height: 700px;
 }
-
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   h1 {
     font-size: 1.2rem;
   }
-  .card{
+  .card {
     margin-top: 30px;
   }
-  #text{
-  line-height: 1.9em;
-  padding-top: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
+  #text {
+    line-height: 1.9em;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
-  .heading-text{
+  .heading-text {
     display: none;
+  }
+  .col-md-4 {
+    padding-top: 10px;
+    line-height: 10px;
   }
 }
 
