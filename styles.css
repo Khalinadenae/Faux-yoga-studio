@@ -178,3 +178,19 @@ margin-top:0;
   padding: 0;
   margin: 0;
 }
+
+#unlimited{
+line-height: 30px;
+
+}
+.justify-content-evenly{
+  border: 1px solid black;
+  background-image: url(src/pexels-ihsan-adityawarman-1628230.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+strong{
+  font-weight: 1000px;
+}
