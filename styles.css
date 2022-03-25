@@ -8,10 +8,8 @@ html {
   font-size: 1rem;
   scroll-behavior: smooth;
 }
-div p {
-  padding-top: 140px;
-  padding-left: 20px;
-  line-height: 40px;
+p {
+  font-family:  "Lato", sans-serif;
 }
 h7 {
   line-height: 30px;
@@ -163,11 +161,20 @@ padding-top: 10px;
 #class{
   margin: 10px;
   margin-bottom: 0 ;
-  padding: 100px;
-  margin: 100px;
+  padding: 50px;
+  margin: 50px;
 }
 
-#plans{
-font-size: 50px;
+div #plans{
+font-size: 75px;
 margin-top:0;
+
+}
+
+#bg{
+  background-color:#7297768e;
+}
+.card-body{
+  padding: 0;
+  margin: 0;
 }
