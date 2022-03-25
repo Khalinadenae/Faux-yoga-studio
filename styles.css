@@ -6,6 +6,7 @@
 
 html {
   font-size: 1rem;
+  scroll-behavior: smooth;
 }
 div p {
   padding-top: 140px;
@@ -50,6 +51,7 @@ h1 {
 }
 img {
   width: 100%;
+    border: 1px solid black;
 }
 col {
   width: 786px;
