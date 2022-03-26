@@ -30,10 +30,10 @@ a {
   color: black;
   text-decoration: none;
 }
-.phone{
+.phone {
   color: black;
 }
-.phone:hover{
+.phone:hover {
   color: black;
 }
 
@@ -144,7 +144,6 @@ img {
   a .footer-logo {
     display: hidden;
   }
-
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -158,27 +157,31 @@ img {
   h1 {
     font-size: 7rem;
   }
-    #home-cards{
+  #home-cards {
     width: 300px;
   }
-  .card-img-top{
+  .card-img-top {
     height: 250px;
     width: 200px;
+  }
+  h1 #class {
+    font-size: 27px;
+    margin: 10px;
+    padding: 10px;
   }
 }
 
 /* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-  #home-cards{
+@media only screen and (min-width: 1824px) {
+  #home-cards {
     width: 400px;
   }
-    .card-img-top{
+  .card-img-top {
     height: 400px;
     width: 400px;
   }
-/* Styles */
+  /* Styles */
 }
-
 
 /* classes */
 figcaption {
@@ -197,7 +200,7 @@ div #plans {
   font-size: 75px;
   margin-top: 0;
 }
-#teachers{
+#teachers {
   margin-top: 40px;
 }
 #bg {
@@ -211,7 +214,7 @@ div #plans {
 #unlimited {
   line-height: 30px;
 }
-#membership-package{
+#membership-package {
   border: 1px solid black;
   background-image: url(src/pexels-ihsan-adityawarman-1628230.jpg);
   background-repeat: no-repeat;
@@ -221,14 +224,13 @@ div #plans {
 strong {
   font-weight: 1000px;
 }
- .carousel-inner{
-margin-bottom: 60px;
- }
- 
- /* responsive image grid */
- .row {
+.carousel-inner {
+  margin-bottom: 60px;
+}
+
+/* responsive image grid */
+.row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
-
