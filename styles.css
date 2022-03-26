@@ -144,6 +144,9 @@ img {
   a .footer-logo {
     display: hidden;
   }
+  #carousal-img{
+    width: 70%;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -165,7 +168,8 @@ img {
     width: 200px;
   }
   h1 #class {
-    font-size: 27px;
+    font-size: 20px;
+    line-height: 35px;
     margin: 10px;
     padding: 10px;
   }
@@ -190,10 +194,9 @@ figcaption {
 }
 
 #class {
-  margin: 10px;
-  margin-bottom: 0;
-  padding: 50px;
-  margin: 50px;
+margin: 20px;
+padding: 20px;
+text-align: left;
 }
 
 div #plans {
