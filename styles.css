@@ -196,7 +196,9 @@ div #plans {
   font-size: 75px;
   margin-top: 0;
 }
-
+#teachers{
+  margin-top: 40px;
+}
 #bg {
   background-color: #7297768e;
 }
@@ -214,8 +216,11 @@ div #plans {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px;
-  margin-bottom: 100px;
 }
 strong {
   font-weight: 1000px;
 }
+ .carousel-inner{
+margin-bottom: 60px;
+ }
+ 
