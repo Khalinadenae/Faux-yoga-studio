@@ -147,6 +147,12 @@ img {
   #carousal-img {
     width: 90%;
   }
+  button {
+    margin-bottom: 10px;
+  }
+  img #plans-img{
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
