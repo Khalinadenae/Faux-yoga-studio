@@ -150,9 +150,13 @@ img {
   button {
     margin-bottom: 10px;
   }
-  img #plans-img{
-    display: none;
+  #class-img{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -179,6 +183,12 @@ img {
     margin: 10px;
     padding: 10px;
   }
+
+      #class-img{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+      }
 }
 
 /* Large screens ----------- */
@@ -190,7 +200,16 @@ img {
     height: 400px;
     width: 400px;
   }
-  /* Styles */
+  img #class-img{
+  width: 400px;
+  height: 400px; 
+  }
+  #class-img{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 /* classes */
@@ -236,9 +255,3 @@ strong {
   margin-bottom: 60px;
 }
 
-/* responsive image grid */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
