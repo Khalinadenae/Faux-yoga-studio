@@ -89,6 +89,12 @@ h3 {
   text-align: center;
   padding: 30px;
 }
+#icon {
+  border: transparent;
+}
+#home-cards{
+background-color: transparent;
+}
 
 ul {
   padding: 3em;
