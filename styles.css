@@ -92,10 +92,13 @@ h3 {
 #icon {
   border: transparent;
 }
-#home-cards{
-background-color: transparent;
+#home-cards {
+  background-color: transparent;
+  border: transparent;
 }
-
+section .cards {
+  padding: 5px;
+}
 ul {
   padding: 3em;
 }
@@ -127,10 +130,10 @@ h5,
 img {
   max-height: 700px;
 }
-#class-img{
+#class-img {
   width: 100%;
 }
-  
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   h1 {
@@ -157,13 +160,12 @@ img {
   button {
     margin-bottom: 10px;
   }
-  #class-img{
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  #class-img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -191,11 +193,11 @@ img {
     padding: 10px;
   }
 
-      #class-img{
-  width: 100%;
-  display: block;
-  margin-left: auto;
-      }
+  #class-img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+  }
 }
 
 /* Large screens ----------- */
@@ -207,16 +209,16 @@ img {
     height: 400px;
     width: 400px;
   }
-  img #class-img{
-  width: 400px;
-  height: 400px; 
+  img #class-img {
+    width: 400px;
+    height: 400px;
   }
-  #class-img{
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  #class-img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* classes */
@@ -226,8 +228,8 @@ figcaption {
 }
 
 #class {
- text-align: center;
- padding: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
 div #plans {
@@ -261,4 +263,3 @@ strong {
 .carousel-inner {
   margin-bottom: 60px;
 }
-
