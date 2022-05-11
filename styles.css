@@ -79,7 +79,6 @@ div.col {
   margin-bottom: 50px;
 }
 #classes {
-  margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 20px;
   margin-right: 20px;
@@ -87,8 +86,8 @@ div.col {
 }
 h3 {
   text-align: center;
-  padding: 30px;
-  color: #eeedeb;
+  padding: 10px;
+  color: #12110e;
 }
 #icon {
   border: transparent;
