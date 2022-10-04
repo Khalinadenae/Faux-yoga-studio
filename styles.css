@@ -266,3 +266,8 @@ strong {
 .carousel-inner {
   margin-bottom: 60px;
 }
+
+center, main , html {
+  margin: 0;
+  padding: 0;
+}
